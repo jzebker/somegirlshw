@@ -6,8 +6,8 @@ var z = [];
 
 for(i = 0; i < pointCount; i++) 
 {
-   x.push(Math.cos(2*3.1415*i/1000));
-   y.push(Math.sin(2*3.1415*i/1000));
+   x.push(Math.cos(10*3.1415*i/1000));
+   y.push(Math.sin(10*3.1415*i/1000));
    z.push(i/1000);
 }
 Plotly.newPlot('plot', [{
